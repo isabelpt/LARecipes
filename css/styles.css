@@ -10311,3 +10311,12 @@ form .row:first-child .floating-label-form-group {
 #recipe {
   text-align: left;
 }
+
+.bio {
+  text-align: left;
+  padding-bottom: 6%;
+}
+
+#portfolioModal6Label {
+  padding-top: 6%;
+}
