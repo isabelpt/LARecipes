@@ -19,12 +19,12 @@
   --orange: #fd7e14;
   --yellow: #ffc107;
   --green: #28a745;
-  --teal: #1abc9c;
+  --teal: rgb(100, 139, 190);
   --cyan: #17a2b8;
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #1abc9c;
+  --primary: rgb(93, 102, 68);
   --secondary: #2c3e50;
   --success: #28a745;
   --info: #17a2b8;
@@ -368,26 +368,32 @@ h1, h2, h3, h4, h5, h6,
 
 h1, .h1 {
   font-size: 2.5rem;
+  font-family: 'Roboto Slab', serif;
 }
 
 h2, .h2 {
   font-size: 2rem;
+  font-family: 'Roboto Slab', serif;
 }
 
 h3, .h3 {
   font-size: 1.75rem;
+  font-family: 'Roboto Slab', serif;
 }
 
 h4, .h4 {
   font-size: 1.5rem;
+  font-family: 'Roboto Slab', serif;
 }
 
 h5, .h5 {
   font-size: 1.25rem;
+  font-family: 'Roboto Slab', serif;
 }
 
 h6, .h6 {
   font-size: 1rem;
+  font-family: 'Roboto Slab', serif;
 }
 
 .lead {
@@ -3975,6 +3981,7 @@ input[type=button].btn-block {
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
+  font-family: 'Roboto Slab', serif;
 }
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
@@ -3990,6 +3997,7 @@ input[type=button].btn-block {
 .navbar-nav .nav-link {
   padding-right: 0;
   padding-left: 0;
+  font-family: 'Roboto Slab', serif;
 }
 .navbar-nav .dropdown-menu {
   position: static;
@@ -4015,6 +4023,7 @@ input[type=button].btn-block {
   background-color: transparent;
   border: 0.125rem solid transparent;
   border-radius: 0.5rem;
+  font-family: 'Roboto Slab', serif;
 }
 .navbar-toggler:hover, .navbar-toggler:focus {
   text-decoration: none;
@@ -10122,7 +10131,12 @@ h3 {
   font-size: 1.25rem;
 }
 .masthead .masthead-avatar {
-  width: 15rem;
+  width: 70%;
+  height: 20%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  margin-top: 0%;
+  margin-bottom: 0%;
 }
 
 @media (min-width: 992px) {
@@ -10273,14 +10287,9 @@ form .row:first-child .floating-label-form-group {
   border-radius: 2px;
 }
 
-/* On mouse-over, add a grey background color */
-.container:hover input ~ .checkmark {
-  background-color: #ccc;
-}
-
 /* When the checkbox is checked, add a blue background */
 .container input:checked ~ .checkmark {
-  background-color: #2196F3;
+  background-color: #6B705C;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
@@ -10323,4 +10332,8 @@ form .row:first-child .floating-label-form-group {
 
 #lastrecipe {
   padding-top: 4%;
+}
+
+.sources {
+  text-align: center;
 }
