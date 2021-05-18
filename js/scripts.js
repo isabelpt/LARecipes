@@ -55,16 +55,3 @@
   $(window).scroll(navbarCollapse);
 
 })(jQuery); // End of use strict
-
-function strike(element) {
-  var box = document.getElementById("ing");
-  if (box.checked = true) {
-    box.style.textDecoration = "line-through";
-    console.log("checked");
-  } else if (box.checked = false) {
-    box.style.textDecoration = null;
-    console.log("unchecked");
-  } else {
-    console.log("checkbox error");
-  }
-}
